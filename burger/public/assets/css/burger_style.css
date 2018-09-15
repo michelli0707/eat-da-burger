@@ -1,0 +1,85 @@
+html {
+    background-color: aqua;
+}
+
+body {
+   width: 75%;
+   margin: 0 auto; 
+   display: flex;
+   min-height: fit-content;
+   flex-direction: column;
+   background-color: white;
+}
+
+#amazing_burger {
+   display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerMenu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightsteelblue;
+    border: none;
+}
+
+.burgerMenu:hover { 
+    background-color: #81a9ff;
+}
+
+.burgerDevoured {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: lightyellow;
+}
+
+.addBurger {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: silver;
+    border: none;
+}
+
+.addBurger:active {
+   background-color: #81a9ff;
+}
+
+.centerFooter {
+   background-color: lightskyblue;
+   padding: 20px 0;
+}
